@@ -3,8 +3,8 @@ from datetime import datetime
 from aiogram import Bot
 import os
 
-TOKEN = os.getenv('8620812963:AAHr4uUdyydh9xuxKo6s7HJEJ19SA9AI6I4')
-CHANNEL_ID = os.getenv('-1003850747386')
+TOKEN = os.getenv('BOT_TOKEN')
+CHANNEL_ID = os.getenv('CHANNEL_ID')
 
 async def main():
     bot = Bot(token=TOKEN)
